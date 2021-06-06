@@ -5,100 +5,111 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./css/style.css">
+    <!-- 
+        Roboto:
+            900
+            500
+            700
+            400
+        Raleway:
+            700
+     -->
 </head>
 <body>
-    <header>
-        <a href="ololo.com">WebStudio</a>
-        <nav>
-            <ul>
-                <li><a href="1.com">Студия</a></li>
-                <li><a href="2.com">Портфолио</a></li>
-                <li><a href="3.com">Контакты</a></li>
+    <header class="header">
+        <a class="link-logo" href="ololo.com">WebStudio</a>
+        <nav class="navigation">
+            <ul class="menu">
+                <li class="menu-item"><a class="menu-link" href="1.com">Студия</a></li>
+                <li class="menu-item"><a class="menu-link" href="2.com">Портфолио</a></li>
+                <li class="menu-item"><a class="menu-link" href="3.com">Контакты</a></li>
             </ul>
         </nav>
         <ul>
-            <li><a href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-            <li><a href="tel:+380961111111">+38 096 111 11 11</a></li>
+            <li><a class="contact-link" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+            <li><a class="contact-link" href="tel:+380961111111">+38 096 111 11 11</a></li>
         </ul>
    </header>
    <main>
-        <div>
-            <ul>
-                <li><button type="button" value="Все"></button></li>
-                <li><button type="button" value="Веб-сайты"></button></li>
-                <li><button type="button" value="Приложения"></button></li>
-                <li><button type="button" value="Дизайн"></button></li>
-                <li><button type="button" value="Маркетинг"></button></li>
+        <section class="buttons">
+            <ul class="list-btn">
+                <li class="element-list-btn"><button class="filter-btn" type="button" value="Все"></button></li>
+                <li class="element-list-btn"><button class="filter-btn" type="button" value="Веб-сайты"></button></li>
+                <li class="element-list-btn"><button class="filter-btn" type="button" value="Приложения"></button></li>
+                <li class="element-list-btn"><button class="filter-btn" type="button" value="Дизайн"></button></li>
+                <li class="element-list-btn"><button class="filter-btn" type="button" value="Маркетинг"></button></li>
             </ul>
-        </div>
-        <div>
+        </section>
+        <section class="portfolio-elements">
             <ul>
                <li>
-                   <div>
-                        <img src="./images/img31.jpg" width="370" alt="Технокряк">
-                        <h4>Технокряк</h4>
-                        <p>Веб-сайт</p>
+                   <div class="portfolio-element">
+                     <img src="./images/img31.jpg" width="370" alt="Технокряк">
+                     <h4>Технокряк</h4>
+                     <p>Веб-сайт</p>
                     </div>
                 </li> 
                <li>
-                   <div>
-                        <img src="./images/img32.jpg" width="370" alt="Постер New Orlean vs Golden Star">
-                        <h4>Постер New Orlean vs Golden Star</h4>
-                        <p>Дизайн</p>
+                   <div class="portfolio-element">
+                     <img src="./images/img32.jpg" width="370" alt="Постер New Orlean vs Golden Star">
+                     <h4>Постер New Orlean vs Golden Star</h4>
+                     <p>Дизайн</p>
                     </div>
                 </li> 
                <li>
-                   <div>
-                        <img src="./images/img33.jpg" width="370" alt="Ресторан Seafood">
-                        <h4>Ресторан Seafood</h4>
-                        <p>Приложение</p>
+                   <div class="portfolio-element">
+                     <img src="./images/img33.jpg" width="370" alt="Ресторан Seafood">
+                     <h4>Ресторан Seafood</h4>
+                     <p>Приложение</p>
                     </div>
                 </li> 
                <li>
-                   <div>
-                        <img src="./images/img34.jpg" width="370" alt="Проект Prime">
-                        <h4>Проект Prime</h4>
-                        <p>Маркетинг</p>
+                   <div class="portfolio-element">
+                     <img src="./images/img34.jpg" width="370" alt="Проект Prime">
+                     <h4>Проект Prime</h4>
+                     <p>Маркетинг</p>
                     </div>
                 </li> 
                <li>
-                   <div>
-                        <img src="./images/img35.jpg" width="370" alt="Проект Boxes">
-                        <h4>Проект Boxes</h4>
-                        <p>Приложение</p>
+                   <div class="portfolio-element">
+                     <img src="./images/img35.jpg" width="370" alt="Проект Boxes">
+                     <h4>Проект Boxes</h4>
+                     <p>Приложение</p>
                     </div>
                 </li> 
                <li>
-                   <div>
-                        <img src="./images/img36.jpg" width="370" alt="Inspiration has no Borders">
-                        <h4>Inspiration has no Borders</h4>
-                        <p>Веб-сайт</p>
+                   <div class="portfolio-element">
+                     <img src="./images/img36.jpg" width="370" alt="Inspiration has no Borders">
+                     <h4>Inspiration has no Borders</h4>
+                     <p>Веб-сайт</p>
                     </div>
                 </li> 
                <li>
-                   <div>
-                        <img src="./images/img37.jpg" width="370" alt="Издание Limited Edition">
-                        <h4>Издание Limited Edition</h4>
-                        <p>Дизайн</p>
+                   <div class="portfolio-element">
+                     <img src="./images/img37.jpg" width="370" alt="Издание Limited Edition">
+                     <h4>Издание Limited Edition</h4>
+                     <p>Дизайн</p>
                     </div>
                 </li> 
                <li>
-                   <div>
-                        <img src="./images/img38.jpg" width="370" alt="Проект LAB">
-                        <h4>Проект LAB</h4>
-                        <p>Маркетинг</p>
+                   <div class="portfolio-element">
+                     <img src="./images/img38.jpg" width="370" alt="Проект LAB">
+                     <h4>Проект LAB</h4>
+                     <p>Маркетинг</p>
                     </div>
                 </li> 
                <li>
-                   <div>
+                   <div class="portfolio-element">
                         <img src="./images/img39.jpg" width="370" alt="Growing Business">
                         <h4>Growing Business</h4>
                         <p>Приложение</p>
                     </div>
                 </li> 
             </ul>
-        </div>
+        </section>
    </main> 
    <footer>
         <a href="ololo.com">WebStudio</a>
